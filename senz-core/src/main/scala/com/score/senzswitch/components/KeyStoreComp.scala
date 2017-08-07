@@ -2,9 +2,6 @@ package com.score.senzswitch.components
 
 import com.score.senzswitch.protocols.{SenzKey, SwitchKey}
 
-/**
- * Created by eranga on 7/15/16.
- */
 trait KeyStoreComp {
 
   val keyStore: KeyStore

@@ -6,9 +6,6 @@ import com.score.senzswitch.config.{AppConfig, DbConfig}
 
 import scala.annotation.tailrec
 
-/**
-  * Created by eranga on 8/13/16.
-  */
 trait ShareStoreCompImpl extends ShareStoreComp {
 
   this: DbConfig with AppConfig =>

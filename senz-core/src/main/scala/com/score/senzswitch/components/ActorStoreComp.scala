@@ -2,9 +2,6 @@ package com.score.senzswitch.components
 
 import akka.actor.ActorRef
 
-/**
- * Created by eranga on 5/20/16.
- */
 trait ActorStoreComp {
 
   val actorStore: ActorStore

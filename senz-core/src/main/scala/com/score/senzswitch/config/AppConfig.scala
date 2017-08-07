@@ -4,11 +4,6 @@ import com.typesafe.config.ConfigFactory
 
 import scala.util.Try
 
-/**
-  * Load configurations define in application.conf from here
-  *
-  * @author eranga herath(erangaeb@gmail.com)
-  */
 trait AppConfig {
   // config object
   val config = ConfigFactory.load()

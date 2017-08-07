@@ -1,8 +1,5 @@
 package com.score.senzswitch.components
 
-/**
- * Created by eranga on 8/13/16.
- */
 trait ShareStoreComp {
 
   val shareStore: ShareStore

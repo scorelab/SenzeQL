@@ -1,8 +1,5 @@
 package com.score.senzswitch.utils
 
-/**
- * Created by eranga on 8/31/16.
- */
 class ArbTree[A] {
 
   case class Node(data: A, children: Seq[Node])

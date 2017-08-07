@@ -2,9 +2,6 @@ package com.score.senzswitch.utils
 
 import com.score.senzswitch.protocols.{Senz, SenzType}
 
-/**
-  * Created by eranga on 7/23/16.
-  */
 object SenzParser {
 
   def parseSenz(senzMsg: String) = {

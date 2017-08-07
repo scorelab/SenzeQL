@@ -8,9 +8,6 @@ import javax.crypto.Cipher
 import com.score.senzswitch.config.AppConfig
 import sun.misc.{BASE64Decoder, BASE64Encoder}
 
-/**
- * Created by eranga on 1/11/16.
- */
 object RSAUtils extends AppConfig {
   def initRSAKeys() = {
     // first create .keys directory

@@ -2,9 +2,6 @@ package com.score.senzswitch.components
 
 import com.score.senzswitch.protocols.Senz
 
-/**
- * Created by eranga on 7/31/16.
- */
 trait CryptoComp {
 
   val crypto: Crypto

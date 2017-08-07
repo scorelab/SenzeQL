@@ -7,9 +7,6 @@ import com.score.senzswitch.config.AppConfig
 import com.score.senzswitch.protocols.{Senz, SenzType, SwitchKey}
 import sun.misc.{BASE64Decoder, BASE64Encoder}
 
-/**
- * Created by eranga on 7/31/16.
- */
 trait CryptoCompImpl extends CryptoComp {
 
   this: KeyStoreComp with AppConfig =>

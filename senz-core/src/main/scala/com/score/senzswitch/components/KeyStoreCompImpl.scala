@@ -6,9 +6,6 @@ import com.mongodb.casbah.Imports._
 import com.score.senzswitch.config.{AppConfig, DbConfig}
 import com.score.senzswitch.protocols.{SenzKey, SwitchKey}
 
-/**
-  * Created by eranga on 7/15/16.
-  */
 trait KeyStoreCompImpl extends KeyStoreComp {
 
   this: DbConfig with AppConfig =>
