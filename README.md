@@ -1,2 +1,2 @@
 # SenzeQL
-Clinet for Senze Query Language
+Client for Senze Query Language.
